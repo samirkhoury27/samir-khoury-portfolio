@@ -5,3 +5,7 @@
 /* Preserve the complete AL MAR cover and event image at every viewport size. */
 .intro figure img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
 .imagebutton.wide.uncropped img{height:auto;max-height:none;object-fit:contain}
+
+/* Material studies keep their complete original compositions. */
+.micro-gallery{align-items:start}
+.micro-gallery .imagebutton img{height:auto;max-height:none;object-fit:contain}
